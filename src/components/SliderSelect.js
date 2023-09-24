@@ -22,6 +22,7 @@ const SliderSelect = ({ data, setData }) => {
         }
         unit="£"
         amount={data.homeValue}
+        reverseOrder={true}
       />
       <SliderComponent
         label="Down Payment"
@@ -32,31 +33,44 @@ const SliderSelect = ({ data, setData }) => {
         step={100}
         onChange={(e, value) =>
           setData({
+            ...data,
             downPayment: value,
           })
         }
         unit="£"
         amount={data.downPayment}
+        reverseOrder={true}
       />
       <SliderComponent
         label="Loan Amount"
         min={0}
-        max={1250}
-        defaultValue={20}
-        step={5}
-        onChange={(e) => console.log(e.target.value)}
+        max={data.homeValue}
+        defaultValue={data.loanAmount}
+        value={data.loanAmount}
+        step={100}
+        onChange={(e, value) => setData({
+          ...data,
+          loanAmount:value,
+        })}
         unit="£"
-        amount={700}
+        amount={data.loanAmount}
+        reverseOrder={true}
       />
       <SliderComponent
         label="Interst Rate"
-        min={0}
-        max={1250}
-        defaultValue={20}
-        step={5}
-        onChange={(e) => console.log(e.target.value)}
-        unit="£"
-        amount={700}
+        min={2}
+        max={18}
+        defaultValue={data.interstRate}
+        value = {data.interstRate}
+        step={0.5}
+        onChange={(e, value) =>setData({
+          ...data,
+          interstRate:value,
+         })}
+        unit="%"
+        amount={data.interstRate}
+       
+        reverseOrder={false}
       />
     </>
   );

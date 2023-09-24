@@ -12,6 +12,7 @@ function App() {
     downPayment: 500,
     loanAmount: 700,
     loanTerm: 3000,
+    interstRate: 5,
   });
 
 
