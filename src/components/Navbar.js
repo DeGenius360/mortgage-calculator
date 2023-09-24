@@ -2,18 +2,21 @@ import React from 'react'
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import { blue } from '@mui/material/colors';
+import { Container } from '@mui/material';
 
 const Navbar = () => {
   return (
     <div>
        <AppBar position="static">
+        <Container maxWidth= "xl" >
         <Toolbar>
-          <div style={{color:'red', fontSize:'90px'}}>something</div>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h5" component="p" >
             Bank of DG
           </Typography>
           
         </Toolbar>
+        </Container>
       </AppBar>
     </div>
   )
