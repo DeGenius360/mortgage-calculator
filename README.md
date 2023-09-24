@@ -71,6 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 **Screenshot of app**
-![screenshot](C:\Users\degen\OneDrive\Documents\GitHub\Rev\mortgage-calculator\src\images\image.jpg)
+![screenshot](..\mortgage-calculator\src\images\image.jpg)
 
 **OVERVIEW OF APP**
