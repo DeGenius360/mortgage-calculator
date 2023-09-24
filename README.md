@@ -71,6 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 **Screenshot of app**
-![alt text](https://github.com/DeGenius360/mortgage-calculator/main/src/images/image.jpg?raw=true)
+![screenshot](C:\Users\degen\OneDrive\Documents\GitHub\Rev\mortgage-calculator\src\images\image.jpg)
 
 **OVERVIEW OF APP**
