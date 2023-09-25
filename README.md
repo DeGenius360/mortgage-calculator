@@ -76,3 +76,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![pc-screenshot](src/images/pc_screenshot.jpg)
 
 **OVERVIEW OF APP**
+This project is an attempted to practice building software with reactJS and material-ui. 
+Very basic layout and presentation.
