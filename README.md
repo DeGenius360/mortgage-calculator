@@ -71,8 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 **EXPECTED OUTCOME**
-(![In-dev](src/images/image.jpg))
-(![mobile-screenshot](src/images/mobile_screenshot.jpg))
-(![pc-screenshot](src\images\pc_screenshot.jpg))
+![In-dev](src/images/image.jpg)
+![mobile-screenshot](src/images/mobile_screenshot.jpg)
+![pc-screenshot](src/images/pc_screenshot.jpg)
 
 **OVERVIEW OF APP**
