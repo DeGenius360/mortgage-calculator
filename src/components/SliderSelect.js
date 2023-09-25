@@ -17,6 +17,8 @@ const SliderSelect = ({ data, setData }) => {
         onChange={(e, value) =>
           setData({
             ...data,
+            downPayment: value * 0.2,
+            loanAmount: value * 0.8,
             homeValue: value,
           })
         }
@@ -34,6 +36,7 @@ const SliderSelect = ({ data, setData }) => {
         onChange={(e, value) =>
           setData({
             ...data,
+            loanAmount: (data.homeValue - value),
             downPayment: value,
           })
         }
@@ -50,6 +53,7 @@ const SliderSelect = ({ data, setData }) => {
         step={100}
         onChange={(e, value) => setData({
           ...data,
+          downPayment: (data.homeValue - value),
           loanAmount:value,
         })}
         unit="£"
