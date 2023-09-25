@@ -71,6 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 **Screenshot of app**
-../
+(![Alt text](src/images/image.jpg))
 
 **OVERVIEW OF APP**
